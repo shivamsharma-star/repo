@@ -1,0 +1,13 @@
+.home {
+    padding: 2rem;
+  }
+  .home h2 {
+    font-size: 2.5rem;
+    color: #ff8c42; /* Strong light orange */
+  }
+  .home p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 1rem;
+  }
+  

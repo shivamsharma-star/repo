@@ -1,0 +1,25 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5e6; /* Light orange background */
+  color: #333;
+}
+.App {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  .home, .about, .contact {
+    padding: 1rem;
+  }
+  .home h2, .about h2, .contact h2 {
+    font-size: 2rem;
+  }
+}

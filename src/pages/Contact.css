@@ -1,0 +1,71 @@
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 2.5rem;
+  color: #ff8c42; /* Strong light orange */
+}
+.contact p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 1rem 0;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff5e6; /* Light orange background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #ffb347; /* Light orange */
+  box-shadow: 0 0 5px rgba(255, 179, 71, 0.5);
+}
+
+.contact-form button {
+  display: inline-block;
+  background: #ff8c42; /* Strong light orange */
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #e38c2e; /* Darker orange */
+  transform: scale(1.05);
+}
+
+.contact-form button:active {
+  background: #d77a1f; /* Even darker orange */
+  transform: scale(1);
+}
